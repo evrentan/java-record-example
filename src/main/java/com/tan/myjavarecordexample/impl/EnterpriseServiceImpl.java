@@ -6,12 +6,14 @@ import com.tan.myjavarecordexample.entity.EnterpriseEntity;
 import com.tan.myjavarecordexample.mapper.EnterpriseMapper;
 import com.tan.myjavarecordexample.repository.EnterpriseRepository;
 import com.tan.myjavarecordexample.service.IEnterpriseService;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class EnterpriseServiceImpl implements IEnterpriseService {
 
   private final EnterpriseRepository enterpriseRepository;
