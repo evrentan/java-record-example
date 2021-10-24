@@ -8,6 +8,7 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.List;
 import java.util.Objects;
 
@@ -23,7 +24,7 @@ public class EnterpriseController {
   }
 
   @PostMapping
-  public ResponseEntity<EnterpriseLombok> createEnterprise(@RequestBody EnterpriseRecord enterpriseRecord) {
+  public ResponseEntity<EnterpriseLombok> createEnterprise(@Valid @RequestBody EnterpriseRecord enterpriseRecord) {
     return ResponseEntity.ok(this.enterpriseService.createEnterprise(enterpriseRecord));
   }
 
