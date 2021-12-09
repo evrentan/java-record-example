@@ -8,11 +8,11 @@
         <version>2.5.6</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.tan</groupId>
-    <artifactId>my-java-record-example</artifactId>
+    <groupId>evrentan.examples</groupId>
+    <artifactId>java-record-example</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>my-java-record-example</name>
-    <description>my-java-record-example</description>
+    <name>java-record-example</name>
+    <description>Java Record Example</description>
     <properties>
         <java.version>17</java.version>
         <dependency.mapstruct.version>1.4.2.Final</dependency.mapstruct.version>

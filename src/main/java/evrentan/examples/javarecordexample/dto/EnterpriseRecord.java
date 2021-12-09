@@ -1,4 +1,4 @@
-package com.tan.myjavarecordexample.dto;
+package evrentan.examples.javarecordexample.dto;
 
 import org.hibernate.validator.constraints.Length;
 

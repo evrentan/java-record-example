@@ -1,8 +1,8 @@
-package com.tan.myjavarecordexample.controller;
+package evrentan.examples.javarecordexample.controller;
 
-import com.tan.myjavarecordexample.dto.EnterpriseLombok;
-import com.tan.myjavarecordexample.dto.EnterpriseRecord;
-import com.tan.myjavarecordexample.service.IEnterpriseService;
+import evrentan.examples.javarecordexample.dto.EnterpriseLombok;
+import evrentan.examples.javarecordexample.dto.EnterpriseRecord;
+import evrentan.examples.javarecordexample.service.IEnterpriseService;
 import org.apache.commons.collections4.CollectionUtils;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;

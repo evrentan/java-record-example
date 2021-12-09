@@ -1,7 +1,7 @@
-package com.tan.myjavarecordexample.service;
+package evrentan.examples.javarecordexample.service;
 
-import com.tan.myjavarecordexample.dto.EnterpriseLombok;
-import com.tan.myjavarecordexample.dto.EnterpriseRecord;
+import evrentan.examples.javarecordexample.dto.EnterpriseLombok;
+import evrentan.examples.javarecordexample.dto.EnterpriseRecord;
 
 import java.util.List;
 

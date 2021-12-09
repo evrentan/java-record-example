@@ -1,11 +1,11 @@
-package com.tan.myjavarecordexample.impl;
+package evrentan.examples.javarecordexample.impl;
 
-import com.tan.myjavarecordexample.dto.EnterpriseLombok;
-import com.tan.myjavarecordexample.dto.EnterpriseRecord;
-import com.tan.myjavarecordexample.entity.EnterpriseEntity;
-import com.tan.myjavarecordexample.mapper.EnterpriseMapper;
-import com.tan.myjavarecordexample.repository.EnterpriseRepository;
-import com.tan.myjavarecordexample.service.IEnterpriseService;
+import evrentan.examples.javarecordexample.dto.EnterpriseLombok;
+import evrentan.examples.javarecordexample.dto.EnterpriseRecord;
+import evrentan.examples.javarecordexample.entity.EnterpriseEntity;
+import evrentan.examples.javarecordexample.mapper.EnterpriseMapper;
+import evrentan.examples.javarecordexample.repository.EnterpriseRepository;
+import evrentan.examples.javarecordexample.service.IEnterpriseService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;

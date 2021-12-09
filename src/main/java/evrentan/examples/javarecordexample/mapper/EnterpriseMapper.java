@@ -1,8 +1,8 @@
-package com.tan.myjavarecordexample.mapper;
+package evrentan.examples.javarecordexample.mapper;
 
-import com.tan.myjavarecordexample.dto.EnterpriseLombok;
-import com.tan.myjavarecordexample.dto.EnterpriseRecord;
-import com.tan.myjavarecordexample.entity.EnterpriseEntity;
+import evrentan.examples.javarecordexample.dto.EnterpriseLombok;
+import evrentan.examples.javarecordexample.dto.EnterpriseRecord;
+import evrentan.examples.javarecordexample.entity.EnterpriseEntity;
 import org.mapstruct.*;
 import org.mapstruct.factory.Mappers;
 

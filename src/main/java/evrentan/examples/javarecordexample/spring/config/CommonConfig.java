@@ -1,4 +1,4 @@
-package com.tan.myjavarecordexample.spring.config;
+package evrentan.examples.javarecordexample.spring.config;
 
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.ComponentScan;

@@ -1,6 +1,6 @@
-package com.tan.myjavarecordexample.repository;
+package evrentan.examples.javarecordexample.repository;
 
-import com.tan.myjavarecordexample.entity.EnterpriseEntity;
+import evrentan.examples.javarecordexample.entity.EnterpriseEntity;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

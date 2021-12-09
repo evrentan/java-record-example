@@ -1,4 +1,4 @@
-package com.tan.myjavarecordexample.entity;
+package evrentan.examples.javarecordexample.entity;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
